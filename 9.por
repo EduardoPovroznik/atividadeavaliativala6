@@ -16,7 +16,7 @@ programa {
 		    length = txt.numero_caracteres(nome)
 		}
 		
-		escreva("Digite sua idade")
+		escreva("\n Digite sua idade \t")
 		leia(idade)
 		
 		enquanto(idade < 0 ou idade > 150){
@@ -24,13 +24,14 @@ programa {
 		    leia(idade)
 		}
 		
-		escreva("Digite o seu salário mensal")
+		escreva("\n Digite o seu salário mensal \t")
 		leia(salario)
 		
 		enquanto(salario < 0.00){
 		    escreva("\n Salário inválido, tente novamente \t")
+		    leia(salario)
 		}
 		
-		escreva("Inscrição finalizada.")
+		escreva("\n Inscrição finalizada.")
 	}
 }

@@ -20,7 +20,7 @@ programa {
     		escreva("Informe o quinto número: ")
     		leia(numero5)
     		
-    		maior = mat.maior_numero(numero1, numero2)
+    		maior = mat.maior_numero(numero1, numero2, numero3, numero4, numero5)
     		escreva("\nO maior número é: ", maior, "\n")
     }
 }
